@@ -3,7 +3,7 @@
     <h2>出力画面</h2>
     <div>入力したテキストは・・・</div>
     <div>
-        「<span><c:out value="${echoForm.text}" /></span>」
+        「<span><c:out value="${sampleForm.text}" /></span>」
     </div>
     <div>です。</div>
     <br>

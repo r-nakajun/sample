@@ -1,7 +1,7 @@
 <html>
 <body>
-    <h2>入力画面</h2>
-        <form:form modelAttribute="echoForm">
+    <h2>入力画面の実装練習</h2>
+        <form:form modelAttribute="sampleForm">
             <div>テキストを入力してください ：</div>
             <div>
                 <form:input path="text" />
