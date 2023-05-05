@@ -1,4 +1,4 @@
-package org.config;
+/*package org.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -17,3 +17,4 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 	}
 
 }
+*/

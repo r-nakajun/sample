@@ -1,4 +1,4 @@
-package org.config;
+/*package org.config;
 
 import org.springframework.context.annotation.Configuration;
 
@@ -6,3 +6,4 @@ import org.springframework.context.annotation.Configuration;
 public class AppConfig {
 
 }
+*/

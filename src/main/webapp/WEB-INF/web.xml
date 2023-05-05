@@ -18,10 +18,12 @@
             org.springframework.web.context.support.AnnotationConfigWebApplicationContext
         </param-value>
     </context-param>
-    <context-param>
+
+<!-- Beanの定義方法をXMLベースConfへ変更 -->
+<!--     <context-param>
         <param-name>contextConfigLocation</param-name>
         <param-value>org.config.AppConfig</param-value>
-    </context-param>
+    </context-param> -->
 
 	<!-- 文字のエンコーディングを指定し -->
 	<filter>
@@ -48,7 +50,9 @@
 			org.springframework.web.servlet.DispatcherServlet
 		</servlet-class>
 		<!-- Spring MVC の Bean 定義を登録 -->
-		<init-param>
+
+<!-- Beanの定義方法をXMLベースConfへ変更 -->
+<!-- 		<init-param>
 			<param-name>contextClass</param-name>
             <param-value>
                 org.springframework.web.context.support.AnnotationConfigWebApplicationContext
@@ -57,7 +61,7 @@
         <init-param>
             <param-name>contextConfigLocation</param-name>
             <param-value>org.config.WebMvcConfig</param-value>
-        </init-param>
+        </init-param> -->
 	</servlet>
 
 	<servlet-mapping>
